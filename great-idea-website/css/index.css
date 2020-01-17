@@ -31,9 +31,11 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
@@ -64,3 +66,108 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	min-width: 1184px;
+}
+
+.navigation {
+	padding: 5px;
+	margin-left: 20px;
+    background-color: lightblue;
+    z-index: 1;
+    position: fixed;
+    width: 97%;
+}
+
+.nav-tabs {
+	padding: 5px;
+	margin: 30px;
+	display: inline-block;
+	font-size: 12;
+	color: black;
+}
+
+.nav-tabs:hover {
+	color: blue;
+	cursor: pointer;
+}
+
+
+.nav-image {
+	position: relative;
+	top: 10px;
+	left: 50px;
+}
+
+.about {
+	position: relative;
+	top: 125px;
+	padding: 5px;
+	width: 587px;
+	height: 400px;
+	display: inline-block;
+}
+
+.title {
+	display: block;
+	font-size: 70px;
+	text-align: center;
+}
+
+.button {
+	display: inline-block;
+	border: 1px solid black;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 20px;
+	text-align: center;
+	color: black;
+	position: relative;
+	bottom: 30px;
+}
+
+.black-line {
+	display: block;
+	width: 100%;
+	margin-top: 60px;
+	border: 1px solid black;
+}
+
+.content {
+	display: display-block;
+}
+
+.top-content {
+    padding: 40px;
+    margin-left: 20px;
+    width: 550px;
+    height: 200px;
+    display: inline-block;
+}
+
+
+.middle-img {
+	display: block;
+	margin: 48px;
+}
+
+.bottom-content {
+    width: 400px;
+    height: 200px;
+    padding: 30px;
+	display: inline-block;
+	padding: 40px;
+    margin-left: 20px;
+}
+
+.contact {	
+	width: 200px;
+	display: block;
+	padding: 30px;
+	margin-left: 20px;
+}
+
+.copyright {
+	text-align: center;
+}
